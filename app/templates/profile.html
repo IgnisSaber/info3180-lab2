@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="whole">
+    <div class="top">
+    <img src="{{url_for('static', filename="candice.jpg")}}"/>
+        <div class="intro">
+            <div id="name">Candice de Lisser</div>
+            <div id="username">@IgnisSaber</div>
+            <div id="address">Kingston, Jamaica</div>
+         <div id="date">{{ date }}</div>
+        </div>
+    
+    </div>
+    
+    <div class="bottom">
+        <p>I am a Physics and Computer Science student.  I love anime, martial arts and meditation.  I am also a private tutor in elemetary school Mathematics and High School level Physics.</p>
+        <div class="grid">
+          <div class="topitem">7</div><div class="topitem">100</div><div class="topitem">250</div>
+          <div class="item">Posts</div><div class="item">Following</div><div class="item">Followers</div>
+        </div>
+        <div class="c_button"><button type="button">Follow</button></div>
+        
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}

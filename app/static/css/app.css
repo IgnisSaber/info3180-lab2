@@ -1,3 +1,89 @@
 body {
     padding-top: 5rem;
 }
+
+.whole{
+    border: 1px, solid, gray;
+}
+
+.intro{
+    text-align: center;
+}
+
+button{
+  background-color: green;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.c_button{
+    text-align: center;
+}
+
+img{
+	border-radius: 50%;
+    padding: 20px;
+    display: block;
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    width: 30%;
+}
+
+.top{
+    background-color: rgb(117, 0, 128);
+    color: white;
+}
+
+.bottom{
+    background-color: white;
+}
+
+
+
+#name, #username, #address, #date{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#name{
+    font-size: 40px;
+}
+
+#username, #address, #date{
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.topitem{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.item{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    color: gray;
+}
+
+p{
+    color: gray;
+    font-size: 20px;
+}
